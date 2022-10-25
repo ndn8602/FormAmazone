@@ -19,7 +19,11 @@ const Signin = () => {
           Notice.
         </Form.Text>
         <Dropdown>
-          <Dropdown.Toggle variant="none" id="dropdown-basic">
+          <Dropdown.Toggle
+            variant="none"
+            className="dropdown-basic p-0"
+            id="dropdown-basic"
+          >
             Need help?
           </Dropdown.Toggle>
           <Dropdown.Menu>
@@ -36,7 +40,7 @@ const Signin = () => {
         <h5>New to Amazon?</h5>
       </div>
       <Link to="/Register">
-        <Button>Create your Amazon account</Button>
+        <Button variant="register">Create your Amazon account</Button>
       </Link>
     </>
   );

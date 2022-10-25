@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Dropdown, Form } from "react-bootstrap";
+import { Button, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const Register = () => {
@@ -31,7 +31,6 @@ const Register = () => {
           By continuing, you agree to Amazon's Conditions of Use and Privacy
           Notice.
         </Form.Text>
-
         <div className="formOption">
           <p>
             Already have an account? <Link to="/signin">Sign in</Link>

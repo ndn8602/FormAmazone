@@ -4,7 +4,7 @@ import { Nav } from "react-bootstrap";
 const Footer = () => {
   return (
     <footer>
-      <div className="divider"></div>
+      <div className="dividerline"></div>
       <Nav>
         <Nav.Item>
           <Nav.Link href="/link"> Conditions of Use</Nav.Link>

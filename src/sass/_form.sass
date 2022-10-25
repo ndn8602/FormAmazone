@@ -4,7 +4,7 @@
     width: 100%
     overflow: hidden
     img
-        width: 10%
+        width: 20%
         height: 5rem
         background-size: cover
         background-position: center
@@ -13,6 +13,8 @@
 form
     width: 22rem
     padding: 1.2rem
+    .form-text
+        line-height: 1.4rem
     .formTitle
         font-weight: 400
         font-size: 1.2rem
@@ -25,6 +27,7 @@ form
         border-radius: 0.2rem
         &:focus
             box-shadow: rgba(247, 169, 80, 0.753) 0px 10px 15px -3px, rgba(255, 203, 134, 0.979) 0px 4px 6px -2px
+            transition: 0.2s ease-in
     .btn
         background: #f0c14b
         border-color: #a88734 #9c7e31 #846a29
@@ -33,3 +36,37 @@ form
             color: #111
             background: #f7b717
             border-color: #a88734 #9c7e31 #846a29
+    .formOption
+        font-size: 0.8rem
+        p
+            margin: 0.5rem 0
+a
+    .btn-register
+        background: rgb(204,202,202)
+        background: linear-gradient(0deg, rgba(204,202,202,0.8155637254901961) 67%, rgba(255,253,253,1) 100%)
+        border: none
+.dropdown-basic
+    background-color: transparent !important
+    border: none
+    margin: 2rem 0
+    font-size: 0.8rem
+
+.divider
+    position: relative
+    z-index: 999
+    h5
+        margin: 1rem 0
+        height: fit-content
+        width: fit-content
+        background-color: #fff
+        z-index: 999
+        color: #777777ad
+        &::after
+            content: ''
+            position: absolute
+            top: 50%
+            left: -50%
+            width: 15rem
+            height: 1px
+            z-index: -1
+            background-color: #777777

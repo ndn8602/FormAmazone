@@ -60,8 +60,8 @@ table {
   overflow: hidden;
 }
 .logo img {
-  width: 10%;
-  height: 5rem;
+  width: 15%;
+  height: 8rem;
   background-size: cover;
   background-position: center;
   -o-object-fit: cover;
@@ -151,7 +151,7 @@ a .btn-register {
 
 @media all and (max-width: 768px) {
   .logo img {
-    width: 21%;
+    width: 70%;
   }
 }
 footer {
